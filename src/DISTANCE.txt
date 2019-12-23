@@ -1,0 +1,10 @@
+"Ryan Villena
+"ryanvillena@kaplan.com
+Disp "1st Point?
+Prompt X,Y
+X->A
+Y->B
+Disp "2nd Point?
+Prompt X,Y
+Disp "Distance:
+Disp sqrt((X-A)^2+(Y-B)^2)
