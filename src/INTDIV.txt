@@ -1,0 +1,19 @@
+"RyanVillena
+"ryanvillena@kaplan.com
+
+Disp "Syntax:
+Disp "X/Y
+Prompt X,Y
+
+// int(X/Y) is the actual quotient Q,
+// but is offset by 1 if quotient is negative
+// adding 1 if the quantity is negative resolves this
+(int(X/Y)+((X/Y)<0))->Q
+
+(YfPart(X/Y))->R
+If Q<0
+-R->R
+Disp "Quotient  (Q):
+Disp Q
+Disp "Remainder (R):
+Disp R
