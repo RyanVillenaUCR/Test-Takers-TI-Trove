@@ -1,18 +1,27 @@
-"RyanVillena
-"ryanvillena@kaplan.com
-
+// Integer Division
+// Given an integer dividend in X
+// and an integer divisor in Y,
+// computes the integer quotient and remainder.
+// Stores the quotient in register Q
+// and the remainder in register R,
+// for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
 Disp "Syntax:
 Disp "X/Y
 Prompt X,Y
-
+//
 // int(X/Y) is the actual quotient Q,
 // but is offset by 1 if quotient is negative
 // adding 1 if the quantity is negative resolves this
-(int(X/Y)+((X/Y)<0))->Q
-
-(YfPart(X/Y))->R
+(int(X/Y)+((X/Y)<0))→Q
+//
+(YfPart(X/Y))→R
 If Q<0
--R->R
+-R→R
 Disp "Quotient  (Q):
 Disp Q
 Disp "Remainder (R):
