@@ -2,6 +2,8 @@
 // Given two equations with two unknowns,
 // solves for each variable.
 // Will notify if there are infinite or no solution.
+// Puts the solutions X and Y into their corresponding
+// registers, for your convenience.
 //
 "Ryan Villena
 "ryan.villena@kaplan.com
