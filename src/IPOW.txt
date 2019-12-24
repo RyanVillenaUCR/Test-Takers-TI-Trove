@@ -1,5 +1,12 @@
+// Powers of i
+// Given a power of i (e.g. i^250, i^-500),
+// simplifies it to its smallest power
+// and displays the result.
+//
 "Ryan Villena
 "ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
 Disp "Power of i?
 Disp "(i^X)
 Prompt X
