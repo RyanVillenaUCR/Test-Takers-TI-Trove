@@ -1,10 +1,19 @@
+// Distance
+// Given two 2D points,
+// calculates and returns its distance.
+// Its distance is stored in register D,
+// for your convenience.
+//
 "Ryan Villena
-"ryanvillena@kaplan.com
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
 Disp "1st Point?
 Prompt X,Y
-X->A
-Y->B
+X→A
+Y→B
 Disp "2nd Point?
 Prompt X,Y
-Disp "Distance:
-Disp sqrt((X-A)^2+(Y-B)^2)
+√((X-A)^2+(Y-B)^2)→D
+Disp "Distance (D):
+Disp D
