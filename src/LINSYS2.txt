@@ -1,0 +1,62 @@
+// Linear Systems 2
+// Given two equations with two unknowns,
+// solves for each variable.
+// Will notify if there are infinite or no solution.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+{2,3}→dim([A])
+Disp "Syntax:
+Disp "Ax + By = C
+Disp "1st Equation:
+Prompt A,B,C
+A→[A](1,1)
+B→[A](1,2)
+C→[A](1,3)
+Disp "2nd Equation:
+Prompt A,B,C
+A→[A](2,1)
+B→[A](2,2)
+C→[A](2,3)
+rref([A])→[A]
+// Use X as a flag:
+// tells whether or not left side of augmented matrix [A]
+// is the identity matrix
+// If it isn't, then the system is linearly dependent,
+// and there isn't a unique solution
+1→X
+For(I,1,2)
+For(J,1,2)
+If (I=J)≠[A](I,J)
+Then
+0→X
+End
+End
+End
+If X
+Then
+[A](1,3)→X
+[A](2,3)→Y
+Disp "X:
+Disp X
+Disp "Y:
+Disp Y
+Stop
+Else
+// Redundant, but assign 0 to X just to be safe ig? lol
+0→X
+// Use X to count the number of 0 elements in row 2
+// If row 2 is a zero row, then there's infinitely many solutions
+// Else if an element in row 2 is nonzero, there's no solution
+For(I,1,3)
+(X+([A](2,I)≠0))→X
+End
+If X=0
+Then
+Disp "Infinite Solutions
+Else
+Disp "No Solutions
+End
+End
