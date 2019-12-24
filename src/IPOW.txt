@@ -1,0 +1,36 @@
+"Ryan Villena
+"ryan.villena@kaplan.com
+Disp "Power of i?
+Disp "(i^X)
+Prompt X
+If fPart(X)≠0
+Then
+:Disp "ERROR
+:Disp "Whole numbers only
+:Stop
+End
+// Equivalent to X %= 4
+4fPart(X/4)→X
+Disp "Simplified Form:"
+If X=0
+Disp "i^4 = 1
+If X=1
+Disp "i^1 = √(⁻1)
+If X=2
+Disp "i^2 = ⁻1
+If X=3
+Then
+Disp "i^3 = ⁻√(⁻1)
+Disp "    = ⁻i
+End
+If X=⁻1
+Disp "iˉ¹ = 1⁄√(⁻1)
+If X=⁻2
+Disp "i^(⁻2) = ⁻1
+If X=⁻3
+Then
+Disp "i^(⁻3) = √(⁻1)
+Disp "       = i
+End
+If X=⁻4
+Disp "i^(⁻4) = 1
