@@ -47,8 +47,7 @@ Disp "Y:
 Disp Y
 Stop
 Else
-// Redundant, but assign 0 to X just to be safe ig? lol
-0→X
+// If you're here, X is 0
 // Use X to count the number of 0 elements in row 2
 // If row 2 is a zero row, then there's infinitely many solutions
 // Else if an element in row 2 is nonzero, there's no solution
