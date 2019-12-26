@@ -1,0 +1,34 @@
+// Slope Formula
+// Given two points,
+// computes the slope of the line which connects them.
+// Will notify if the slope is undefined,
+// i.e. if the line would be vertical.
+// Puts the slope into register M,
+// for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+Disp "1st point?
+Prompt X,Y
+X→A
+Y→B
+Disp "2nd point?
+Prompt X,Y
+If X=A
+Then
+If Y=B
+Then
+Disp "You entered the
+Disp "same point twice
+Disp "nerd
+Else
+Disp "Undefined
+Disp "slope
+End
+Else
+((Y-B)⁄(X-A))→M
+Disp "Slope (M):
+Disp M
+End
