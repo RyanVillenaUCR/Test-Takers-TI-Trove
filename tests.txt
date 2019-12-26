@@ -1,0 +1,131 @@
+All programs written by Ryan Villena
+
+For inquiries, help, or bug reports,
+contact Ryan Villena at
+mr.ryanvillena@gmail.com
+or
+ryan.villena@kaplan.com
+
+
+
+===
+
+
+
+prgmDISTANCE (Distance between two points)
+	Sample problem:
+		What is the distance between points (3, 5) and (⁻3, 2)?
+	Expected answer:
+		6.708203932...
+
+
+
+prgmINTDIV (Integer division)
+	Sample problem:
+		What is 421 divided by 3?
+	Expected answer:
+		Quotient of 140, remainder 1
+
+
+
+prgmIPOW (Powers of i)
+	Sample problem:
+		What is i (the imaginary number) to the power of 250?
+		That is, what is i^250?
+	Expected answer:
+		i²
+		OR
+		⁻1
+
+
+
+prgmLINSYS2 (Linear Systems, 2 Variables)
+	Sample problem:
+		What is the solution to the following system of equations?
+		3x -  y = 7
+		2x + 3y = 1
+	Expected answer:
+		x =  2
+		y = ⁻1
+
+
+
+prgmLINSYS3 (Linear Systems, 3 Variables)
+	Sample problem:
+		What is the solution to the following system of equations?
+		 2x - 4y + 5z = ⁻33
+		 4x -  y      = ⁻5
+		⁻2x + 2y - 3z =  19
+	Expected answer:
+		x = ⁻1/2
+		y = 3
+		z = ⁻4
+
+	Sample Problem:
+		What is the solution to the following system of equations?
+		 x + 2y + 3z =  4
+		2x + 4y + 6z =  8
+		3x + 6y + 9z = 12
+	Expected answer:
+		Infinitely many solutions
+
+	Sample Problem:
+		What is the solution to the following system of equations?
+		  x +  2y + 3z = 4
+		 ⁻x +  7y - 3z = 2
+		⁻2x + 14y - 6z = 2
+	Expected answer:
+		No solution
+
+
+
+
+
+prgmPTS2LINE (Points -> Line Equation)
+	Sample problem:
+		What is the equation of the line
+		that intersects (⁻2, ⁻3) and (7, 11)?
+	Expected answer:
+		y = 1.55555...x + 0.11111...
+		OR
+		y = (14/9)x + 1/9
+
+
+
+prgmPTSLPFRM (Point-Slope Form)
+	Sample problem:
+		What is the equation of the line with slope 17
+		which intersects the point (20, ⁻70)?
+	Expected answer:
+		y = 17x - 410
+
+
+
+prgmQUADFORM (Quadratic Formula)
+	Sample problem:
+		5x² + 50x - 120 = 0
+	Expected answer:
+		x = 2
+		x = ⁻12
+
+	Sample problem:
+		2x² - x + 4 = 0
+	Expected answer:
+		No solution
+
+	Sample problem:
+		x² - 6x + 9 = 0
+	Expected answer:
+		x = 3
+
+
+
+prgmSLOPE (Slope Formula)
+	Sample problem:
+		What is the slope of the line connecting
+		the points (2, ⁻3) and (⁻4, 17)?
+	Expected answer:
+		m = ⁻3.33333...
+		OR
+		m = ⁻10/3
+
