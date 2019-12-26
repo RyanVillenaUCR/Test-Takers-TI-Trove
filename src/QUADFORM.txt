@@ -23,10 +23,10 @@ If D>0
 Then
 Disp "2 solutions
 Disp "X:
-Disp ((⁻B-√(D))⁄(2A))
+Disp ((⁻B-√(D))⁄(2A))►Frac
 // Put the greater solution into X
 ((⁻B+√(D))⁄(2A))→X
-Disp X
+Disp X►Frac
 Stop
 End
 //
@@ -36,7 +36,7 @@ Then
 Disp "1 solution
 Disp "X:
 (⁻B⁄(2A))→X
-Disp X
+Disp X►Frac
 Stop
 End
 //

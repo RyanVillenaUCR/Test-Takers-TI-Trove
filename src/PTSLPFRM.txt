@@ -19,6 +19,6 @@ Prompt X,Y
 Disp "Syntax:
 Disp "y = mx + b
 Disp "M:
-Disp M
+Disp M►Frac
 Disp "B:
-Disp B
+Disp B►Frac

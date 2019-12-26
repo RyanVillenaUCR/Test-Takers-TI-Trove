@@ -42,9 +42,9 @@ Then
 [A](1,3)→X
 [A](2,3)→Y
 Disp "X:
-Disp X
+Disp X►Frac
 Disp "Y:
-Disp Y
+Disp Y►Frac
 Stop
 Else
 // If you're here, X is 0

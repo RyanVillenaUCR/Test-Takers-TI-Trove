@@ -53,11 +53,11 @@ Then
 [A](2,4)→Y
 [A](3,4)→Z
 Disp "X:
-Disp X
+Disp X►Frac
 Disp "Y:
-Disp Y
+Disp Y►Frac
 Disp "Z:
-Disp Z
+Disp Z►Frac
 Stop
 Else
 // If you're here, then X is 0

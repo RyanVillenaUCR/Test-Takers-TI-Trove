@@ -16,4 +16,4 @@ Disp "2nd Point?
 Prompt X,Y
 √((X-A)^2+(Y-B)^2)→D
 Disp "Distance (D):
-Disp D
+Disp D►Frac

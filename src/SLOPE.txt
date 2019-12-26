@@ -30,5 +30,5 @@ End
 Else
 ((Y-B)⁄(X-A))→M
 Disp "Slope (M):
-Disp M
+Disp M►Frac
 End
