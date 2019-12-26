@@ -1,0 +1,78 @@
+// Linear Systems 3
+// Given three equations with three unknowns,
+// solves for each variable.
+// Will notify if there are infinite or no solution.
+// Puts the solutions X, Y, and Z
+// into their corresponding registers,
+// for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+{3,4}→dim([A])
+Disp "Syntax:
+Disp "Ax + By + Cz = D
+Disp "1st Equation:
+Prompt A,B,C,D
+A→[A](1,1)
+B→[A](1,2)
+C→[A](1,3)
+D→[A](1,4)
+Disp "2nd Equation:
+Prompt A,B,C,D
+A→[A](2,1)
+B→[A](2,2)
+C→[A](2,3)
+D→[A](2,4)
+Disp "3rd Equation:
+Prompt A,B,C,D
+A→[A](3,1)
+B→[A](3,2)
+C→[A](3,3)
+D→[A](3,4)
+//
+rref([A])→[A]
+// Use X as a flag:
+// tells whether or not left side of augmented matrix [A]
+// is the identity matrix
+// If it isn't, then the system is linearly dependent,
+// and there isn't a unique solution
+1→X
+For(I,1,3)
+For(J,1,3)
+If (I=J)≠[A](I,J)
+Then
+0→X
+End
+End
+End
+If X
+Then
+[A](1,4)→X
+[A](2,4)→Y
+[A](3,4)→Z
+Disp "X:
+Disp X
+Disp "Y:
+Disp Y
+Disp "Z:
+Disp Z
+Stop
+Else
+// If you're here, then X is 0
+// Use X to count the number of 0 elements in rows 2 and 3
+// If they are both zero rows, then there's infinitely many solutions
+// Else if an element in rows 2 or 3 is nonzero, there's no solution
+For(I,1,4)
+(X+([A](2,I)≠0))→X
+(X+([A](3,I)≠0))→X
+End
+If X=0
+Then
+Disp "Infinite
+Disp "Solutions
+Else
+Disp "No Solution
+End
+End
