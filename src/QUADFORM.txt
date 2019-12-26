@@ -1,0 +1,45 @@
+// Quadratic Formula
+// Given constants A, B, and C
+// (as in Ax^2 + Bx + C = 0),
+// computes the roots.
+// Will notify if there is only one solution,
+// or if there are no solutions..
+// If solutions exist,
+// puts the greatest solution into register X
+// for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+Disp "Syntax:
+Disp "Ax² + Bx + C = 0
+Prompt A,B,C
+// Compute discriminant
+// to simplify flow of control
+(B²-4AC)→D
+// D > 0 implies 2 solutions
+If D>0
+Then
+Disp "2 solutions
+Disp "X:
+Disp ((⁻B-√(D))⁄(2A))
+// Put the greater solution into X
+((⁻B+√(D))⁄(2A))→X
+Disp X
+Stop
+End
+//
+// D == 0 implies 1 solution
+If D=0
+Then
+Disp "1 solution
+Disp "X:
+(⁻B⁄(2A))→X
+Disp X
+Stop
+End
+//
+// D < 0 implies no solutions
+Disp "No solution
+Stop
