@@ -1,0 +1,24 @@
+// Point-Slope Form
+// Given a 2D point and a slope,
+// computes and displays
+// the equation of that line
+// in y = mx + b form.
+// Puts the slope M and the y-intercept B
+// into their corresponding registers,
+// for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+Disp "Slope?
+Prompt M
+Disp "Point?
+Prompt X,Y
+⁻MX+Y→B
+Disp "Syntax:
+Disp "y = mx + b
+Disp "M:
+Disp M
+Disp "B:
+Disp B
