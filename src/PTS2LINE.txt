@@ -1,0 +1,32 @@
+// Points to Line
+// Given two points,
+// constructs the y = mx + b form
+// of the line which connects them.
+// Will notify if there's a vertical line.
+// Else, displays the slope M and y-intercept B,
+// and puts them into their corresponding registers,
+// for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+Disp "1st point?
+Prompt X,Y
+X→A
+Y→B
+Disp "2nd point?
+Prompt X,Y
+If X=A
+Then
+Disp "Vertical line!
+Else
+((Y-B)⁄(X-A))→M
+⁻MX+Y→B
+Disp "Syntax:
+Disp "y = mx + b
+Disp "M: 
+Disp M
+Disp "B:
+Disp B
+End
