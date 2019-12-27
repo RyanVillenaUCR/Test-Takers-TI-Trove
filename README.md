@@ -108,11 +108,7 @@ Alright, we've typed a program that displays 69, 69 times. Let's finish this off
 
 (Use `ALPHA` → `+` to type a quotation mark. In TI-Basic, you don't always need to use quotation marks on _both_ ends of a string; a quotation mark on the left is usually sufficient. This is considered good practice because it saves space on your TI.)
 
-Awesome! Our program is finished. Let's exit out using `QUIT` (type in `2ND` → `MODE`), so we're on our main screen:
-
-![blank screen](https://user-images.githubusercontent.com/32404733/71511871-b3f29f80-2848-11ea-8c22-a23586ee7f50.png)
-
-Let's now run our program using `PRGM` → `FRSTPRGM` → `ENTER` → `ENTER`:
+Awesome! Our program is finished. Let's exit out using `QUIT` (type in `2ND` → `MODE`), so we're on our main screen Once there, let's now run our program using `PRGM` → `FRSTPRGM` → `ENTER` → `ENTER`:
 
 ![prgmNICE](https://user-images.githubusercontent.com/32404733/71511955-0fbd2880-2849-11ea-8d0b-07cfe15333ef.gif)
 
