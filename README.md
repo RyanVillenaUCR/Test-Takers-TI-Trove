@@ -55,6 +55,8 @@ The following programs are currently available:
   * Will notify if the slope is undefined.
   * Stores the slope in register M.
 
+To request a new program be added to this collection, please [email me](mailto:ryan.villena@kaplan.com) or ask me in class.
+
 ## Installation
 ### Download This Repo
 * Click the green ![Clone or Download button](https://user-images.githubusercontent.com/32404733/71463821-846e6500-276c-11ea-873d-ccef3b1fb602.png) button at the top of this page
