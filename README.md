@@ -19,7 +19,7 @@ I thus recommend my students be equipped with these programs, but that they **co
 
 ## Installation
 ### Download This Repo
-* Click the green ![Clone or Download button](https://user-images.githubusercontent.com/32404733/71463821-846e6500-276c-11ea-873d-ccef3b1fb602.png) button
+* Click the green ![Clone or Download button](https://user-images.githubusercontent.com/32404733/71463821-846e6500-276c-11ea-873d-ccef3b1fb602.png) button at the top of this page
 * Click ![Download ZIP](https://user-images.githubusercontent.com/32404733/71463897-acf65f00-276c-11ea-937f-7df5f158f7ca.png), then save the .zip file somewhere onto your computer
 * Extract the files from that .zip file ([there many ways to do this](https://lmgtfy.com/?q=extract+zip+file))
 
@@ -61,8 +61,68 @@ I thus recommend my students be equipped with these programs, but that they **co
 
 ## Editing Programs
 
+All programs are coded in the TI-Basic programming language. It is a scripting language, which means the calculator reads programs raw, line-by-line (as opposed to compiled languages like Java). In other words, if your program has a syntax error, it won't be caught until the calculator tries to execute that line of code. Please be careful and test your code frequently!
+
+I strongly recommend that beginners learn to program on their calculators `before` moving on to desktop. On a physical calculator, it's easy to quickly test and fix your code when you're just starting out. Desktop programming should be reserved for more complicated programs.
+
 ### On the TI
-TBW
+Hit the `PRGM` button at the center of your calculator. You'll see all of the programs your calculator has. (This may be empty if you haven't yet installed any programs.)
+
+![empty_prgm_menu](https://user-images.githubusercontent.com/32404733/71510456-dd5cfc80-2843-11ea-978a-f280d493c7d1.png)
+
+We're in the `EXEC` submenu. We don't have any programs to execute yet, so let's make one. Use the right arrow key to highlight `NEW` instead. Our only option here is to `Create New`, so let's do just that by pressing `ENTER`.
+
+![create new](https://user-images.githubusercontent.com/32404733/71510594-388eef00-2844-11ea-8fbc-ac7c882e527b.png)
+
+We must define a name for our programs. Only uppercase letters and numbers are allowed, but the first character must be a letter. Also, only 8 characters are allowed. Let's title ours `FRSTPRGM` (first program) by using the green letters on our calculator, then hitting `ENTER`:
+
+![empty FRSTPRGM](https://user-images.githubusercontent.com/32404733/71510774-dd113100-2844-11ea-93ef-d67bdfde7e2e.png)
+
+On our calculator, each line of code starts with a `:` character. Let's make a program to display the number 69, and we'll do that 69 times. At the end, we'll display a message for our user. Sounds fun!
+
+We'll first store the number 69 into register `X` so we can easily reference it. Store 69 into `X`, then insert a new line with `ENTER`:
+
+![store 69 into X](https://user-images.githubusercontent.com/32404733/71511028-c0292d80-2845-11ea-9e09-b506a88e65d8.png)
+
+(Use the STO button at the bottom-left of your calculator to type the arrow.)
+
+We'll use the `Disp` command to display this number 69 times. You could manually type this 69 times, but there's a better way: TI-Basic supports [_for loops_](http://tibasicdev.wikidot.com/for). Let's follow the directions on that page, and type this line into our calculator:
+
+![For(Y,1,69](https://user-images.githubusercontent.com/32404733/71511306-b8b65400-2846-11ea-9825-bfd15e11982b.png)
+
+(To type the `For(` command, use `PRGM` → `For(` under the `CTL` submenu. `CTL` here stands for "flow of control", the keywords that dictate how your program runs. Use `ALPHA` → `1` to type `Y`, and there's a `,` button above the `7` button.)
+
+Inside our _for_ loop, let's just do one thing: diplay the number 69. We stored it in `X` earlier, so let's just display `X`:
+
+![Disp X](https://user-images.githubusercontent.com/32404733/71511417-26628000-2847-11ea-8f69-1183335fe197.png)
+
+We now need to tell the calculator that we've finished writing the body of our _for_ loop. To do this, use the `End` keyword:
+
+![End](https://user-images.githubusercontent.com/32404733/71511490-6de90c00-2847-11ea-9563-9609083b4adc.png)
+
+(The `End` keyword is in `PRGM` → `End` under the `CTL` submenu.)
+
+Alright, we've typed a program that displays 69, 69 times. Let's finish this off by printing "Nice" to the user, because of course we're going to do that. Display the string "NICE", making sure not to forget the left quotation mark:
+
+![Disp "NICE](https://user-images.githubusercontent.com/32404733/71511777-5f4f2480-2848-11ea-8d5f-6756a5d6a3c9.png)
+
+(Use `ALPHA` → `+` to type a quotation mark. In TI-Basic, you don't always need to use quotation marks on _both_ ends of a string; a quotation mark on the left is usually sufficient. This is considered good practice because it saves space on your TI.)
+
+Awesome! Our program is finished. Let's exit out using `QUIT` (type in `2ND` → `MODE`), so we're on our main screen:
+
+![blank screen](https://user-images.githubusercontent.com/32404733/71511871-b3f29f80-2848-11ea-8c22-a23586ee7f50.png)
+
+Let's now run our program using `PRGM` → `FRSTPRGM` → `ENTER` → `ENTER`:
+
+![prgmNICE](https://user-images.githubusercontent.com/32404733/71511955-0fbd2880-2849-11ea-8d0b-07cfe15333ef.gif)
+
+Wonderful. We've written our first program... but honestly, I can understand if you want to delete this. No worries, just do `MEM` by hitting `2ND` → `+`, then `Mem Mgmt/Del…` → `Prgm…` → `FRSTPRGM` → `DEL` → `Yes`:
+
+![delete prgmFRSTPRGM](https://user-images.githubusercontent.com/32404733/71512165-dafda100-2849-11ea-869b-74b8372c9e08.gif)
+
+Nicely done. Try writing your own programs on your TI now! If you need inspiration, you can always try looking at some [working examples](https://github.com/RyanVillenaUCR/Test-Takers-TI-Trove/tree/master/src). (Note that the // lines shouldn't be typed into your calculator.)
+
+For me, `prgmSLOPE` was one of my first programs. I recommend you try writing your own version! [Mine](https://github.com/RyanVillenaUCR/Test-Takers-TI-Trove/blob/b5fb17f1bcf037788b5cc86b61ef4b15f49f0532/src/SLOPE.txt#L1) is always here for you to consult.
 
 ### On Desktop
 TBW
