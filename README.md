@@ -17,6 +17,44 @@ To that last point, it might be surprising that at the time of this writing, the
 
 I thus recommend my students be equipped with these programs, but that they **comply with proctors** who request these programs be deleted on Test Day. These programs simply save time with manual calculations; **students who don't understand the material will not find these resources beneficial.**
 
+### Programs
+
+The following programs are currently available:
+
+* **DISTANCE**
+  * Finds the distance between two 2D points.
+  * Stores the result in register D.
+* **INTDIV** _(Integer division)_
+  * Computes whole-number quotient and remainder when dividing two numbers.
+  * Stores the quotient in register Q.
+  * Stores the remainder in register R.
+* **IPOW** _(Powers of i)_
+  * Simplifies large whole-number powers of imaginary number i, like i^72.
+* **LINSYS2** _(Linear Systems 2)_
+  * Solves systems of two equations.
+  * Will notify if infinite solutions or no solution.
+  * Stores the results in registers X and Y.
+* **LINSYS3** _(Linear Systems 3)_
+  * Solves systems of 3 equations.
+  * Will notify if infinite solutions or no solution.
+  * Stores the results in registers X, Y, and Z.
+* **PTS2LINE** _(Points to Line)_
+  * Constructs y = mx + b equation for two points.
+  * Stores the slope in register M.
+  * Stores the y-intercept in register B.
+* **PTSLPFRM** _(Point-Slope Form)_
+  * Constructs y = mx + b equation for a slope and a point.
+  * Stores the slope in register M.
+  * Stores the y-intercept in register B.
+* **QUADFORM** _(Quadratic Formula)_
+  * Computes the roots of a quadratic equation.
+  * Will notify if 0, 1, or 2 solutions.
+  * Stores the greatest solution in register X.
+* **SLOPE**
+  * Computes the slope for two points.
+  * Will notify if the slope is undefined.
+  * Stores the slope in register M.
+
 ## Installation
 ### Download This Repo
 * Click the green ![Clone or Download button](https://user-images.githubusercontent.com/32404733/71463821-846e6500-276c-11ea-873d-ccef3b1fb602.png) button at the top of this page
