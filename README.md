@@ -120,5 +120,6 @@ Nicely done. Try writing your own programs on your TI now! If you need inspirati
 
 For me, `prgmSLOPE` was one of my first programs. I recommend you try writing your own version! [Mine](https://github.com/RyanVillenaUCR/Test-Takers-TI-Trove/blob/b5fb17f1bcf037788b5cc86b61ef4b15f49f0532/src/SLOPE.txt#L1) is always here for you to consult.
 
-### On Desktop
-TBW
+### On Windows
+
+TODO - I'll finish this section later. For now, just use [TokenIDE](https://www.ticalc.org/archives/files/fileinfo/433/43315.html) to write programs on a Windows machine. You can emulate a TI on Windows or Android using [Wabbitemu](http://wabbitemu.org/). Save your program using `Ctrl+S`, build your program in TokenIDE using `F5`, then drag-and-drop the `.8xp` file to the Wabbitemu screen to export your program to the emulator.
