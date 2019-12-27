@@ -20,8 +20,8 @@ I thus recommend my students be equipped with these programs, but that they **co
 ## Installation
 ### Download This Repo
 * Click the green ![Clone or Download button](https://user-images.githubusercontent.com/32404733/71463821-846e6500-276c-11ea-873d-ccef3b1fb602.png) button at the top of this page
-* Click ![Download ZIP](https://user-images.githubusercontent.com/32404733/71463897-acf65f00-276c-11ea-937f-7df5f158f7ca.png), then save the .zip file somewhere onto your computer
-* Extract the files from that .zip file ([there many ways to do this](https://lmgtfy.com/?q=extract+zip+file))
+* Click ![Download ZIP](https://user-images.githubusercontent.com/32404733/71463897-acf65f00-276c-11ea-937f-7df5f158f7ca.png), then save the `.zip` file somewhere onto your computer
+* Extract the files from that `.zip` file ([there are many ways to do this](https://lmgtfy.com/?q=extract+zip+file))
 
 ### Install TIConnect
 * Download [TI Connect](https://education.ti.com/en/products/computer-software/ti-connect-sw) ([Windows version](https://education.ti.com/download/en/ed-tech/B59F6C83468C4574ABFEE93D2BC3F807/A885DD53BEC14496971FE5A42F1014CF/TI-Connect-4.0.0.218.exe)) ([Mac Version](https://education.ti.com/download/en/ed-tech/B59F6C83468C4574ABFEE93D2BC3F807/9BF7E4898EA043FB808873EE5D0267ED/TIConnect-4.1.15.dmg))
@@ -63,7 +63,7 @@ I thus recommend my students be equipped with these programs, but that they **co
 
 All programs are coded in the TI-Basic programming language. It is a scripting language, which means the calculator reads programs raw, line-by-line (as opposed to compiled languages like Java). In other words, if your program has a syntax error, it won't be caught until the calculator tries to execute that line of code. Please be careful and test your code frequently!
 
-I strongly recommend that beginners learn to program on their calculators `before` moving on to desktop. On a physical calculator, it's easy to quickly test and fix your code when you're just starting out. Desktop programming should be reserved for more complicated programs.
+I strongly recommend that beginners learn to program on their calculators **before** moving on to desktop. On a physical calculator, it's easy to quickly test and fix your code when you're just starting out. Desktop programming should be reserved for more complicated programs.
 
 ### On the TI
 Hit the `PRGM` button at the center of your calculator. You'll see all of the programs your calculator has. (This may be empty if you haven't yet installed any programs.)
@@ -108,7 +108,7 @@ Alright, we've typed a program that displays 69, 69 times. Let's finish this off
 
 (Use `ALPHA` → `+` to type a quotation mark. In TI-Basic, you don't always need to use quotation marks on _both_ ends of a string; a quotation mark on the left is usually sufficient. This is considered good practice because it saves space on your TI.)
 
-Awesome! Our program is finished. Let's exit out using `QUIT` (type in `2ND` → `MODE`), so we're on our main screen Once there, let's now run our program using `PRGM` → `FRSTPRGM` → `ENTER` → `ENTER`:
+Awesome! Our program is finished. Let's exit out using `QUIT` (type in `2ND` → `MODE`), so we're on our main screen. Once there, let's now run our program using `PRGM` → `FRSTPRGM` → `ENTER` → `ENTER`:
 
 ![prgmNICE](https://user-images.githubusercontent.com/32404733/71511955-0fbd2880-2849-11ea-8d0b-07cfe15333ef.gif)
 
