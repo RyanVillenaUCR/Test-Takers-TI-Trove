@@ -3,7 +3,7 @@
 // (as in Ax² + Bx + C = 0),
 // computes the roots.
 // Will notify if there is only one solution,
-// or if there are no solutions..
+// or if there are no solutions.
 // If solutions exist,
 // puts the greatest solution into register X
 // for your convenience.
