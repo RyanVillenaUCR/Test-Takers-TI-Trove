@@ -6,7 +6,7 @@ On the SAT and ACT, there are some math problems which require more than a few s
 
 Each program exists here as a `.8xp` file ([example](https://github.com/RyanVillenaUCR/Test-Takers-TI-Trove/blob/master/8xp/LINSYS3.8xp)) and as a `.txt` file ([example](https://github.com/RyanVillenaUCR/Test-Takers-TI-Trove/blob/master/src/LINSYS3.txt)). Computers/calculators read `.8xp` files, while humans read `.txt` files. You will install the `.8xp` files onto your calculator; I only provide the `.txt` files so you can actually read the code from your computer.
 
-To install onto your calculator, you'll install [TI Connect](https://education.ti.com/en/products/computer-software/ti-connect-sw) onto your computer. You'll use TI Connect and a [USB A-Male to Mini-B cord](https://www.amazon.com/AmazonBasics-USB-2-0-Cable-Male/dp/B00NH11N5A) to copy the `.8xp` files to your calculator. More details below.
+To install onto your calculator, you'll install [TI Connect](https://education.ti.com/en/products/computer-software/ti-connect-sw) onto your computer. You'll use TI Connect and a [USB A-Male to Mini-B cord](https://www.amazon.com/AmazonBasics-USB-2-0-Cable-Male/dp/B00NH11N5A) to copy the `.8xp` files to your calculator. Installation instructions [below](https://github.com/RyanVillenaUCR/Test-Takers-TI-Trove/blob/master/README.md#installation).
 
 ### Disclaimer
 I should note that the use of these programs is **strictly unfair** to those without programmable calculators. Given the decision, I myself would prohibit the use of programmable calculators on these tests.
