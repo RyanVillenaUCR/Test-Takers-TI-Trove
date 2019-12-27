@@ -1,6 +1,6 @@
 // Quadratic Formula
 // Given constants A, B, and C
-// (as in Ax^2 + Bx + C = 0),
+// (as in Ax² + Bx + C = 0),
 // computes the roots.
 // Will notify if there is only one solution,
 // or if there are no solutions..
