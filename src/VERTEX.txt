@@ -1,0 +1,30 @@
+// Vertex formula
+// Given constants A, B, and C
+// (as in y = Ax² + Bx + C),
+// computes its vertex.
+// Puts the coordinates into registers X and Y,
+// for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+Disp "Syntax:
+Disp "y = Ax² + Bx + C
+Prompt A,B,C
+If A=0
+Then
+Disp "ERROR: A = 0
+Disp "You didn't give
+Disp "me a parabola,
+Disp "nerd
+Stop
+End
+ClrHome
+(⁻B⁄(2A))→X
+(AX²+BX+C)→Y
+Disp "Vertex:
+Disp "X:
+Disp X►Frac
+Disp "Y:
+Disp Y►Frac
