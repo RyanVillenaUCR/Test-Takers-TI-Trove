@@ -16,6 +16,8 @@ prgmDISTANCE (Distance between two points)
 	Sample problem:
 		What is the distance between points (3, 5) and (⁻3, 2)?
 	Expected answer:
+		√(45)
+		OR
 		6.708203932...
 
 

@@ -14,6 +14,10 @@ X→A
 Y→B
 Disp "2nd Point?
 Prompt X,Y
-√((X-A)^2+(Y-B)^2)→D
+(X-A)²+(Y-B)²→D
 Disp "Distance (D):
-Disp D►Frac
+Disp "Square root of
+Disp D
+Disp "which is
+√(D)→D
+Disp D
