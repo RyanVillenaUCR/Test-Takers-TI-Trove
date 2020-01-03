@@ -1,7 +1,7 @@
 // Distance
 // Given two 2D points,
-// calculates and returns its distance.
-// Its distance is stored in register D,
+// calculates and returns their distance.
+// The distance is stored in register D,
 // for your convenience.
 //
 "Ryan Villena
