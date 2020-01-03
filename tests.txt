@@ -57,7 +57,7 @@ prgmLINSYS3 (Linear Systems, 3 Variables)
 		 4x -  y      = ⁻5
 		⁻2x + 2y - 3z =  19
 	Expected answer:
-		x = ⁻1/2
+		x = ⁻1⁄2
 		y = 3
 		z = ⁻4
 
@@ -88,7 +88,7 @@ prgmPTS2LINE (Points -> Line Equation)
 	Expected answer:
 		y = 1.55555...x + 0.11111...
 		OR
-		y = (14/9)x + 1/9
+		y = (14⁄9)x + 1⁄9
 
 
 
@@ -127,5 +127,14 @@ prgmSLOPE (Slope Formula)
 	Expected answer:
 		m = ⁻3.33333...
 		OR
-		m = ⁻10/3
+		m = ⁻10⁄3
 
+
+
+prgmVERTEX (Vertex Formula)
+	Sample problem:
+		Find the vertex of the following parabola:
+		y = 3x² + x - 2
+	Expected answer:
+		x = ⁻1⁄6
+		y = ⁻25⁄12
