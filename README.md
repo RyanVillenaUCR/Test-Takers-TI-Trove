@@ -124,7 +124,7 @@ We'll first store the number 69 into register `X` so we can easily reference it.
 
 ![store 69 into X](https://user-images.githubusercontent.com/32404733/71511028-c0292d80-2845-11ea-9e09-b506a88e65d8.png)
 
-(Use the STO button at the bottom-left of your calculator to type the arrow.)
+(Use the `STO` button at the bottom-left of your calculator to type the arrow.)
 
 We'll use the `Disp` command to display this number 69 times. You could manually type this 69 times, but there's a better way: TI-Basic supports [_for loops_](http://tibasicdev.wikidot.com/for). Let's follow the directions on that page, and type this line into our calculator:
 
