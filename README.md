@@ -54,6 +54,9 @@ The following programs are currently available:
   * Computes the slope for two points.
   * Will notify if the slope is undefined.
   * Stores the slope in register M.
+* **VERTEX**
+  * Computes the vertex of a quadratic function.
+  * Stores the coordinates in registers X and Y.
 
 To request a new program be added to this collection, please [email me](mailto:ryan.villena@kaplan.com) or ask me in class.
 
