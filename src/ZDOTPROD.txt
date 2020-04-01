@@ -12,6 +12,7 @@
 // Ensure lists are populated
 If (dim(L₁)=0) or (dim(L₂)=0)
 Then
+ClrHome
 Disp "L₁ or L₂
 Disp "are empty.
 Disp "Fill them with
@@ -22,6 +23,7 @@ End
 // Ensure lists are compatible
 If dim(L₁)≠dim(L₂)
 Then
+ClrHome
 Disp "L₁ and L₂
 Disp "\must be the
 Disp "same length.
@@ -29,8 +31,5 @@ Disp "Fix them with
 Disp "STAT \-> Edit…
 Stop
 End
-// Lists are safe now, calculate dot product
-0→D
-For(I,1,dim(L₁
-(D+(L₁(I)*L₂(I)))→D
-End
+// Calculate dot product
+sum(L₁L₂)→D
