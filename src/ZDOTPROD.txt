@@ -1,0 +1,36 @@
+// Z (Internal) Dot Product
+// Given two vectors in L₁ and L₂,
+// computes the dot product between them.
+// Does not modify either list.
+// Puts the dot product in register D,
+// for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+// Ensure lists are populated
+If (dim(L₁)=0) or (dim(L₂)=0)
+Then
+Disp "L₁ or L₂
+Disp "are empty.
+Disp "Fill them with
+Disp "STAT \-> Edit…
+// can't Disp → character?? wtf
+Stop
+End
+// Ensure lists are compatible
+If dim(L₁)≠dim(L₂)
+Then
+Disp "L₁ and L₂
+Disp "\must be the
+Disp "same length.
+Disp "Fix them with
+Disp "STAT \-> Edit…
+Stop
+End
+// Lists are safe now, calculate dot product
+0→D
+For(I,1,dim(L₁
+(D+(L₁(I)*L₂(I)))→D
+End
