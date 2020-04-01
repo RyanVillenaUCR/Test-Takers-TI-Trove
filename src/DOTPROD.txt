@@ -1,0 +1,9 @@
+// Dot Product
+// Given two vectors in L₁ and L₂,
+// computes the dot product between them.
+// Does not modify either list.
+// Puts the dot product in register D,
+// for your convenience.
+prgmZDOTPROD
+Disp "Dot Product (D):
+Disp D
