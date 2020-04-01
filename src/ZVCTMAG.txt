@@ -11,6 +11,7 @@
 //
 If dim(L₁)=0 and dim(L₂)=0
 Then
+ClrHome
 Disp "L₁ or L₂
 Disp "are empty.
 Disp "Fill them with
