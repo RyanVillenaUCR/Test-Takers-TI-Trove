@@ -1,0 +1,25 @@
+// Z (Internal) Vector Magnitude
+// Attempts to calculate the magnitude
+// of the vectors in L₁ and L₂.
+// Only complains if both of them are empty.
+// Stores the results in X and Y,
+// for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+If dim(L₁)=0 and dim(L₂)=0
+Then
+Disp "L₁ or L₂
+Disp "are empty.
+Disp "Fill them with
+Disp "STAT \-> Edit…
+Stop
+End
+// Calculate magnitude of L₁
+If dim(L₁)≠0
+√(sum(L₁²))→X
+// Calculate magnitude of L₂
+If dim(L₂)≠0
+√(sum(L₂²))→Y

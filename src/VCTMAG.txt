@@ -1,0 +1,33 @@
+// Vector Magnitude
+// Attempts to calculate the magnitude
+// of the vectors in L₁ and L₂.
+// Only complains if both of them are empty.
+// Stores the results in X and Y,
+// for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+prgmZVCTMAG
+If dim(L₁)≠0
+Then
+ClrHome
+Disp "Magnitude of
+Disp "L₁ (X):
+Disp "Square root of
+Disp sum(L₁²)
+Disp "or
+Disp X
+If dim(L₂)=0
+Return
+Disp "(Press ENTER)
+Pause 
+ClrHome
+End
+If dim(L₂)≠0
+Disp "Magnitude of
+Disp "L₂ (Y):
+Disp sum(L₂²)
+Disp "or
+Disp Y
