@@ -1,0 +1,14 @@
+// Z (Internal) Vector Normalize
+// Attempts to normalize the
+// vectors in L₁ and L₂.
+// Only complains if both of them are empty.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+prgmZVCTMAG
+If dim(L₁)≠0
+L₁/X→L₁
+If dim(L₂)≠0
+L₂/Y→L₂

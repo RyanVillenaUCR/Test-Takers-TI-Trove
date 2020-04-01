@@ -1,0 +1,20 @@
+// Vector Normalize
+// Attempts to normalize the
+// vectors in L₁ and L₂.
+// Only complains if both of them are empty.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+prgmZVCTNORM
+If dim(L₁)≠0
+Then
+Disp "Normalized L₁:
+Disp L₁
+End
+If dim(L₂)≠0
+Then
+Disp "Normalized L₂:
+Disp L₂
+End
