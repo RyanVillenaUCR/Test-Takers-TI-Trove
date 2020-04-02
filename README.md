@@ -24,6 +24,9 @@ The following programs are currently available:
 * **DISTANCE**
   * Finds the distance between two 2D points.
   * Stores the result in register D.
+* **DOTPROD** _(Dot Product)_
+  * Finds the dot product of the vectors in L₁ and L₂.
+  * Stores the result in register D.
 * **INTDIV** _(Integer division)_
   * Computes whole-number quotient and remainder when dividing two numbers.
   * Stores the quotient in register Q.
@@ -50,15 +53,44 @@ The following programs are currently available:
   * Computes the roots of a quadratic equation.
   * Will notify if 0, 1, or 2 solutions.
   * Stores the greatest solution in register X.
+* **SIMPLRAD** _(Simplify Radical)_
+  * Simplifies the square root of an integer.
+  * Stores the result in registers A and B.
+  * _(Uses registers I and θ in the background.)_
 * **SLOPE**
   * Computes the slope for two points.
   * Will notify if the slope is undefined.
   * Stores the slope in register M.
+* **VCTANGL** _(Vector Angle)_
+  * Computes the angle between the vectors in L₁ and L₂.
+  * Stores the angle in register A.
+* **VCTMAG** _(Vector Magnitude)_
+  * Computes the magnitudes of the vectors in L₁ and L₂.
+  * Stores the magnitudes in registers X and Y.
+  * Note that only one of L₁ and L₂ need be filled.
+* **VCTNORM** _(Vector Normalize)_
+  * Normalizes the vectors in L₁ and L₂.
+  * Overwrites L₁ and L₂ with the normalized vectors.
+* **VCTPROJ** _(Vector Project)_
+  * Projects the vector in L₁ onto L₂.
+  * Stores the projection vector in L₃.
 * **VERTEX**
   * Computes the vertex of a quadratic function.
   * Stores the coordinates in registers X and Y.
 
 To request a new program be added to this collection, please [email me](mailto:ryan.villena@kaplan.com) or ask me in class.
+
+### A Note on External Subprograms
+
+You'll notice that some programs starting with Z look like duplicates of real programs, like ZVCTPROJ for VCTPROJ. This is an exercise in modular design.
+
+For the vector programs, there was a desire to make them as modular as possible. In this way, they can be used by multiple clients. For example, an end user (you) might want to calculate the magnitude of a vector, while a program (like DOTPROD) might want to run that same code, silently to the user.
+
+The solution to this was to create external subprograms (which you can read about [here](http://tibasicdev.wikidot.com/subprograms)), each labeled with a prepended Z. They do the actual work of the program, silently to the user. In this way, they can be called by whichever client needs it. For example, the user can access the ZVCTMAG functionality using the wrapper program (in this case, VCTMAG), which will take care of the user I/O. Meanwhile, DOTPROD can also access ZVCTMAG's functionality, without needing to run any unnecessary user I/O.
+
+For you, the end user, this simply means that **using the Z programs directly is not recommended**. You may of course still do so, but you won't see any user prompts and will therefore be running the program completely blindly. Of course, if you're able to write programs, you're free to call any of the Z programs as you like. (Do give me credit if you plan to publish that work, though!)
+
+Also, this should be obvious, but you **cannot delete the Z programs** without expecting that some of the other programs break.
 
 ## Installation
 ### Download This Repo
