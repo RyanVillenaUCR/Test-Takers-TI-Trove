@@ -4,6 +4,11 @@
 // Does not modify either list.
 // Puts the dot product in register D,
 // for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
 prgmZDOTPROD
 Disp "Dot Product (D):
 Disp D
