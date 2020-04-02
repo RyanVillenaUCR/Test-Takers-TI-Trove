@@ -1,0 +1,15 @@
+// Z (Internal) Vector Angle
+// Attempts to calculate the angle
+// between the vectors in L₁ and L₂.
+// Stops and notifies the user
+// if the given vectors are incompatible or empty.
+// Stores the angle in register A,
+// for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+prgmZDOTPROD
+prgmZVCTMAG
+cos⁻¹(D/(XY))→A
