@@ -28,6 +28,7 @@ End
 If dim(L₂)≠0
 Disp "Magnitude of
 Disp "L₂ (Y):
+Disp "Square root of
 Disp sum(L₂²)
 Disp "or
 Disp Y
