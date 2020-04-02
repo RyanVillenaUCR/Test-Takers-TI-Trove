@@ -1,0 +1,92 @@
+// Simplify Radical
+// Given an integer,
+// puts it into a radical
+// and gives it in the form of
+// A√(B), where √(B) has been simplified.
+// Stores these two integer terms
+// in registers A and B,
+// for your convenience.
+// Also, uses and modifies
+// registers I and θ.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+Disp "What number
+Disp "inside the sqrt?
+Prompt B
+//
+If B<0
+Then
+Disp "B can't be
+Disp "negative,
+Disp "u nerd lol
+Stop
+End
+//
+If B=0
+Then
+0→A
+Disp "The sq root
+Disp "is zero.
+Return
+End
+// Always init A to 1
+1→A
+// First, test if they gave us
+// a perfect square, so we don't
+// have to do anything
+If fPart(√(B))=0
+Then
+√(B)→B
+Disp "Sq root (B):
+Disp B
+Return
+End
+//
+//
+//
+// Iterate from 2 thru √B
+// Intentionally doesn't go into loop if B is 1
+int(√(B))→θ
+For(I,2,θ
+// If I² is a factor of B,
+If fPart(B/I²)=0
+Then
+// "Take out" I from B,
+// and mult it as a factor onto A
+B/(I²)→B
+A*I→A
+// Keep executing this stuff on I
+// until I² is no longer a factor of B
+I-1→I
+// If I² has surpassed B,
+// then exit the loop early
+If I>B
+θ+1→I
+End
+End
+ClrHome
+//
+//
+//
+If A=1
+Then
+Disp "The number
+Disp B
+Disp "couldn't be
+Disp "simplified
+Disp "further.
+Return
+End
+// If you're here,
+// A≠1 and B≠1
+Disp "Syntax:
+Disp "A√B
+Disp "A:
+Disp A
+Disp "B:
+Disp B
+Disp "(Press Enter)
+Pause 
