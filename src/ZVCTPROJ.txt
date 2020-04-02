@@ -1,0 +1,14 @@
+// Z (Internal) Vector Project
+// Given two vectors in L₁ and L₂,
+// projects the vector in L₁ onto L₂.
+// Does not modify either list.
+// Puts the projection vector in list L₃,
+// for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+prgmZDOTPROD
+prgmZVCTMAG
+(D⁄Y²)L₂→L₃
