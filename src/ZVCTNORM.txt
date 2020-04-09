@@ -9,6 +9,6 @@
 //
 prgmZVCTMAG
 If dim(L₁)≠0
-L₁/X→L₁
+L₁⁄X→L₁
 If dim(L₂)≠0
-L₂/Y→L₂
+L₂⁄Y→L₂
