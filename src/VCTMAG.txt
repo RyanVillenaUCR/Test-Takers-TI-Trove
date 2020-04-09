@@ -16,7 +16,7 @@ ClrHome
 Disp "Magnitude of
 Disp "L₁ (X):
 Disp "Square root of
-Disp sum(L₁²)
+Disp sum(L₁²)►Frac
 Disp "or
 Disp X
 If dim(L₂)=0
@@ -29,6 +29,6 @@ If dim(L₂)≠0
 Disp "Magnitude of
 Disp "L₂ (Y):
 Disp "Square root of
-Disp sum(L₂²)
+Disp sum(L₂²)►Frac
 Disp "or
 Disp Y

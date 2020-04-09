@@ -12,4 +12,4 @@
 prgmZVCTPROJ
 Disp "Projection
 Disp "vector (L₃):
-Disp L₃
+Disp L₃►Frac

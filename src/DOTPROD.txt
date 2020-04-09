@@ -11,4 +11,4 @@
 //
 prgmZDOTPROD
 Disp "Dot Product (D):
-Disp D
+Disp D►Frac

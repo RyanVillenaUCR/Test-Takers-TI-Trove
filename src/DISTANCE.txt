@@ -17,7 +17,7 @@ Prompt X,Y
 (X-A)²+(Y-B)²→D
 Disp "Distance (D):
 Disp "Square root of
-Disp D
+Disp D►Frac
 Disp "which is
 √(D)→D
 Disp D
