@@ -1,0 +1,45 @@
+// Cross Product
+// Given two 3D vectors in L₁ and L₂,
+// computes the cross product between them.
+// Modifies the lists if they are not
+// first initialized with 3 values each.
+// Puts the dot product in L₃,
+// for your convenience.
+// May use X, Y, or Z.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+// Populate L₁
+If dim(L₁)≠3
+Then
+ClrList L₁
+ClrHome
+Disp "Syntax:
+Disp "Vect = {X,Y,Z}
+Disp "1st vector?
+Prompt X,Y,Z
+X→L₁(1)
+Y→L₁(2)
+Z→L₁(3)
+End
+// Populate L₂
+If dim(L₂)≠3
+Then
+ClrList L₂
+ClrHome
+Disp "Syntax:
+Disp "Vect = {X,Y,Z}
+Disp "2nd vector?
+Prompt X,Y,Z
+X→L₂(1)
+Y→L₂(2)
+Z→L₂(3)
+End
+// Compute Cross Product
+prgmZCRSPROD
+ClrHome
+Disp "Cross
+Disp "Product:
+Disp L₃►Frac
