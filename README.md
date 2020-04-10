@@ -61,6 +61,9 @@ The following programs are currently available:
   * Computes the slope for two points.
   * Will notify if the slope is undefined.
   * Stores the slope in register M.
+* **TRPROD** _(Triple Product)_
+  * Computes the triple product of the vectors in L₁, L₂, and L₃.
+  * Stores the triple product in register T.
 * **VCTANGL** _(Vector Angle)_
   * Computes the angle between the vectors in L₁ and L₂.
   * Stores the angle in register A.
