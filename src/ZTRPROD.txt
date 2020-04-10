@@ -1,0 +1,31 @@
+// Z (Internal) Triple Product
+// Given 3 vectors in L₁, L₂, and L₃,
+// computes the dot product between them.
+// Does not modify any of the lists.
+// Uses matrix [A] under the hood.
+// Puts the triple product into T,
+// for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+If dim(L₁)≠3 or dim(L₂)≠3 or dim(L₃)≠3
+Then
+ClrHome
+Disp "Lists 1-3 \must
+Disp "each have 3
+Disp "elements.
+//Disp "(Press Enter)
+//Pause 
+//ClrHome
+Disp "Put V₁ into L₁,
+Disp "    V₂ into L₂,
+Disp "and V₃ into L₃.
+Disp "(Press Enter)
+Pause 
+Stop
+End
+List►matr(L₁,L₂,L₃,[A]
+[A]ᵀ→[A]
+det([A])→T

@@ -1,0 +1,22 @@
+// Triple Product
+// Given 3 vectors in L₁, L₂, and L₃,
+// computes the dot product between them.
+// Does not modify any of the lists.
+// Uses matrix [A] under the hood.
+// Puts the triple product into T,
+// for your convenience.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+prgmZTRPROD
+ClrHome
+Disp "Syntax:
+Disp "Triple
+Disp "Product (T) =
+Disp "(V₁xV₂)·V₃
+Disp "T:
+Disp T►Frac
+Disp "(Press Enter)
+Pause 
