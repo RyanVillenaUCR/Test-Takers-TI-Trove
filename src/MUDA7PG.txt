@@ -1,0 +1,40 @@
+// 7 Page Muda
+// Given a Jojo villain,
+// muda's them for 7 pages.
+//
+"Ryan Villena
+"ryan.villena@kaplan.com
+"bit.ly/kaplan_4t
+//
+// First 3 pages of muda
+For(P,1,3
+For(Y,1,8
+For(X,1,13,4
+Output(Y,X,"Muda
+rand(3
+End
+End
+If P≠3
+ClrHome
+End
+// Wry
+Output(1,1,"W
+Output(1,2,"R
+For(X,3,16
+Output(1,X,"Y
+End
+For(Y,2,8
+For(X,1,16
+Output(Y,X,"Y
+End
+End
+// Last 3 pages of muda
+For(P,5,7
+For(Y,1,8
+For(X,1,13,4
+Output(Y,X,"MUDA
+End
+End
+ClrHome
+End
+Disp "MUDA.
